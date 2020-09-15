@@ -1,3 +1,5 @@
 .idea
 *.sqlite3
 civ
+*.pyc
+__pycache__/*
