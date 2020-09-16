@@ -2,4 +2,4 @@
 *.sqlite3
 civ
 *.pyc
-__pycache__/*
+gestao_rh/__pycache__/
