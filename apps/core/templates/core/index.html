@@ -6,9 +6,10 @@
       One of three columns
     </div>
     <div class="col-sm">
-        Olá {{ usuario.funcionario.nome }}
-        <a href="{% url 'list_funcionarios' %}">Gerencia Funcionario</a>
-        <a href="{% url 'list_departamento' %}">Gerencia Departamentos</a>
+        Olá {{ usuario.funcionario.nome }}<br>
+        <a href="{% url 'list_funcionarios' %}">Gerencia Funcionario</a><br>
+        <a href="{% url 'list_departamento' %}">Gerencia Departamentos</a><br>
+        <a href="{% url 'list_hora_extra' %}">Gerencia Horas Extras</a><br>
     </div>
     <div class="col-sm">
         <a href="{% url 'logout'%}">Logout</a>
